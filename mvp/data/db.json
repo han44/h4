@@ -1,0 +1,586 @@
+{
+  "meta": {
+    "version": 1,
+    "seededAt": "2026-10-12T07:05:01.141Z"
+  },
+  "settings": {
+    "monthlyAllowance": 1000,
+    "maxPointsPerRecognition": 200,
+    "minPointsPerRecognition": 10
+  },
+  "valueTags": [
+    "客户至上",
+    "团队协作",
+    "创新突破",
+    "专业敬业",
+    "担当负责",
+    "持续学习"
+  ],
+  "employees": [
+    {
+      "id": "e001",
+      "no": "1001",
+      "name": "李静",
+      "dept": "人力资源部",
+      "title": "HRBP 经理",
+      "role": "admin",
+      "avatarColor": "#8B5CF6",
+      "birthday": "1990-03-18",
+      "points": 1260,
+      "giveable": 2000,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-09-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e002",
+      "no": "1002",
+      "name": "王磊",
+      "dept": "产品部",
+      "title": "高级产品经理",
+      "role": "employee",
+      "avatarColor": "#2563EB",
+      "birthday": "1993-07-22",
+      "points": 1840,
+      "giveable": 860,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-08-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e003",
+      "no": "1003",
+      "name": "陈晓雯",
+      "dept": "技术部",
+      "title": "前端工程师",
+      "role": "employee",
+      "avatarColor": "#EC4899",
+      "birthday": "1995-10-05",
+      "points": 1520,
+      "giveable": 720,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-07-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e004",
+      "no": "1004",
+      "name": "刘洋",
+      "dept": "技术部",
+      "title": "后端工程师",
+      "role": "employee",
+      "avatarColor": "#0891B2",
+      "birthday": "1991-01-14",
+      "points": 1180,
+      "giveable": 640,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-06-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e005",
+      "no": "1005",
+      "name": "赵敏",
+      "dept": "销售部",
+      "title": "大客户经理",
+      "role": "employee",
+      "avatarColor": "#D97706",
+      "birthday": "1992-10-18",
+      "points": 2260,
+      "giveable": 910,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-05-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e006",
+      "no": "1006",
+      "name": "孙浩",
+      "dept": "市场部",
+      "title": "品牌经理",
+      "role": "employee",
+      "avatarColor": "#059669",
+      "birthday": "1989-05-30",
+      "points": 980,
+      "giveable": 780,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-04-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e007",
+      "no": "1007",
+      "name": "周雨桐",
+      "dept": "产品部",
+      "title": "交互设计师",
+      "role": "employee",
+      "avatarColor": "#DB2777",
+      "birthday": "1996-10-25",
+      "points": 1340,
+      "giveable": 830,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-03-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e008",
+      "no": "1008",
+      "name": "吴建国",
+      "dept": "财务部",
+      "title": "财务分析师",
+      "role": "employee",
+      "avatarColor": "#4F46E5",
+      "birthday": "1987-11-09",
+      "points": 760,
+      "giveable": 690,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-02-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e009",
+      "no": "1009",
+      "name": "郑凯",
+      "dept": "技术部",
+      "title": "测试工程师",
+      "role": "employee",
+      "avatarColor": "#EA580C",
+      "birthday": "1993-10-12",
+      "points": 1120,
+      "giveable": 745,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-01-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e010",
+      "no": "1010",
+      "name": "林芳",
+      "dept": "人力资源部",
+      "title": "招聘专员",
+      "role": "employee",
+      "avatarColor": "#7C3AED",
+      "birthday": "1997-02-28",
+      "points": 890,
+      "giveable": 800,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-10-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e011",
+      "no": "1011",
+      "name": "何伟",
+      "dept": "销售部",
+      "title": "销售代表",
+      "role": "employee",
+      "avatarColor": "#B45309",
+      "birthday": "1994-08-16",
+      "points": 640,
+      "giveable": 705,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-09-08T02:00:00.000Z",
+      "active": true
+    },
+    {
+      "id": "e012",
+      "no": "1012",
+      "name": "马丽",
+      "dept": "市场部",
+      "title": "内容运营",
+      "role": "employee",
+      "avatarColor": "#0D9488",
+      "birthday": "1998-06-11",
+      "points": 720,
+      "giveable": 760,
+      "passwordHash": "a4f7f1779ca83582246bb5dc6e21948c:5691a94bd008a3500aa16ff9c3c141b3143cfc4b43b59e380933d189f3476207",
+      "joinedAt": "2024-08-08T02:00:00.000Z",
+      "active": true
+    }
+  ],
+  "recognitions": [
+    {
+      "id": "rc001",
+      "fromId": "e005",
+      "toId": "e002",
+      "tag": "客户至上",
+      "message": "客户现场演示准备得非常充分，方案一次通过，帮我们拿下续约。",
+      "points": 200,
+      "read": true,
+      "createdAt": "2026-10-01T02:00:00.000Z"
+    },
+    {
+      "id": "rc002",
+      "fromId": "e001",
+      "toId": "e002",
+      "tag": "专业敬业",
+      "message": "福利一体化方案文档结构清晰，评审一次过，专业度很高。",
+      "points": 150,
+      "read": false,
+      "createdAt": "2026-10-04T02:00:00.000Z"
+    },
+    {
+      "id": "rc003",
+      "fromId": "e003",
+      "toId": "e002",
+      "tag": "团队协作",
+      "message": "跨部门协调很到位，主动帮技术侧补齐了业务背景。",
+      "points": 100,
+      "read": false,
+      "createdAt": "2026-10-07T02:00:00.000Z"
+    },
+    {
+      "id": "rc004",
+      "fromId": "e004",
+      "toId": "e003",
+      "tag": "创新突破",
+      "message": "前端组件库重构让首屏加载快了 40%，思路很巧。",
+      "points": 200,
+      "read": true,
+      "createdAt": "2026-10-10T02:00:00.000Z"
+    },
+    {
+      "id": "rc005",
+      "fromId": "e002",
+      "toId": "e004",
+      "tag": "担当负责",
+      "message": "上线前夜主动值守，问题定位很快，责任感强。",
+      "points": 150,
+      "read": true,
+      "createdAt": "2026-09-13T02:00:00.000Z"
+    },
+    {
+      "id": "rc006",
+      "fromId": "e006",
+      "toId": "e005",
+      "tag": "客户至上",
+      "message": "季度大客户回访做得细致，客户满意度回到 98%。",
+      "points": 200,
+      "read": true,
+      "createdAt": "2026-09-16T02:00:00.000Z"
+    },
+    {
+      "id": "rc007",
+      "fromId": "e001",
+      "toId": "e005",
+      "tag": "持续学习",
+      "message": "主动完成数据分析培训并落地到客户复盘里。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-09-19T02:00:00.000Z"
+    },
+    {
+      "id": "rc008",
+      "fromId": "e007",
+      "toId": "e003",
+      "tag": "团队协作",
+      "message": "设计与前端联调顺畅，还原度几乎一比一。",
+      "points": 120,
+      "read": true,
+      "createdAt": "2026-09-22T02:00:00.000Z"
+    },
+    {
+      "id": "rc009",
+      "fromId": "e002",
+      "toId": "e007",
+      "tag": "创新突破",
+      "message": "员工激励页的视觉提案让人眼前一亮，配色很克制。",
+      "points": 180,
+      "read": true,
+      "createdAt": "2026-08-25T02:00:00.000Z"
+    },
+    {
+      "id": "rc010",
+      "fromId": "e005",
+      "toId": "e006",
+      "tag": "专业敬业",
+      "message": "品牌物料质量稳定，交付从不拖延。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-08-02T02:00:00.000Z"
+    },
+    {
+      "id": "rc011",
+      "fromId": "e008",
+      "toId": "e002",
+      "tag": "担当负责",
+      "message": "预算测算严谨，帮业务避免了超支风险。",
+      "points": 150,
+      "read": true,
+      "createdAt": "2026-08-05T02:00:00.000Z"
+    },
+    {
+      "id": "rc012",
+      "fromId": "e009",
+      "toId": "e004",
+      "tag": "专业敬业",
+      "message": "接口测试用例覆盖完整，线上缺陷明显下降。",
+      "points": 120,
+      "read": true,
+      "createdAt": "2026-08-08T02:00:00.000Z"
+    },
+    {
+      "id": "rc013",
+      "fromId": "e010",
+      "toId": "e001",
+      "tag": "团队协作",
+      "message": "招聘高峰期主动分担面试安排，团队效率提升明显。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-07-11T02:00:00.000Z"
+    },
+    {
+      "id": "rc014",
+      "fromId": "e002",
+      "toId": "e009",
+      "tag": "持续学习",
+      "message": "自动化回归接入后，回归时间从 2 天缩短到 3 小时。",
+      "points": 200,
+      "read": true,
+      "createdAt": "2026-07-14T02:00:00.000Z"
+    },
+    {
+      "id": "rc015",
+      "fromId": "e011",
+      "toId": "e005",
+      "tag": "客户至上",
+      "message": "带教新人很耐心，客户交接没有出现断档。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-07-17T02:00:00.000Z"
+    },
+    {
+      "id": "rc016",
+      "fromId": "e012",
+      "toId": "e006",
+      "tag": "创新突破",
+      "message": "短视频选题角度新颖，单条播放量破 10 万。",
+      "points": 150,
+      "read": true,
+      "createdAt": "2026-07-20T02:00:00.000Z"
+    },
+    {
+      "id": "rc017",
+      "fromId": "e004",
+      "toId": "e002",
+      "tag": "团队协作",
+      "message": "需求变更沟通及时，避免了一次返工。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-06-23T02:00:00.000Z"
+    },
+    {
+      "id": "rc018",
+      "fromId": "e003",
+      "toId": "e007",
+      "tag": "专业敬业",
+      "message": "交互稿标注规范，开发几乎零疑问。",
+      "points": 120,
+      "read": true,
+      "createdAt": "2026-06-26T02:00:00.000Z"
+    },
+    {
+      "id": "rc019",
+      "fromId": "e001",
+      "toId": "e010",
+      "tag": "担当负责",
+      "message": "校招宣讲连轴转了两周，依然保持高质量。",
+      "points": 150,
+      "read": true,
+      "createdAt": "2026-06-03T02:00:00.000Z"
+    },
+    {
+      "id": "rc020",
+      "fromId": "e006",
+      "toId": "e012",
+      "tag": "持续学习",
+      "message": "内容数据复盘方法升级后，选题命中率明显提高。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-06-06T02:00:00.000Z"
+    },
+    {
+      "id": "rc021",
+      "fromId": "e005",
+      "toId": "e011",
+      "tag": "客户至上",
+      "message": "客户投诉处理得当，挽回了合作关系。",
+      "points": 120,
+      "read": true,
+      "createdAt": "2026-05-09T02:00:00.000Z"
+    },
+    {
+      "id": "rc022",
+      "fromId": "e002",
+      "toId": "e008",
+      "tag": "专业敬业",
+      "message": "开票口径梳理得很清楚，统一开票方案终于落地。",
+      "points": 180,
+      "read": true,
+      "createdAt": "2026-05-12T02:00:00.000Z"
+    },
+    {
+      "id": "rc023",
+      "fromId": "e007",
+      "toId": "e002",
+      "tag": "创新突破",
+      "message": "原型里的微动效让演示效果提升一个档次。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-05-15T02:00:00.000Z"
+    },
+    {
+      "id": "rc024",
+      "fromId": "e009",
+      "toId": "e003",
+      "tag": "团队协作",
+      "message": "联调阶段配合默契，问题当日清零。",
+      "points": 100,
+      "read": true,
+      "createdAt": "2026-05-18T02:00:00.000Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "r1",
+      "name": "星巴克电子饮品券",
+      "desc": "全国门店通用，即时发放",
+      "cost": 200,
+      "stock": 50,
+      "emoji": "☕",
+      "category": "餐饮",
+      "active": true
+    },
+    {
+      "id": "r2",
+      "name": "电影通兑券",
+      "desc": "支持全国主流院线",
+      "cost": 150,
+      "stock": 80,
+      "emoji": "🎬",
+      "category": "文娱",
+      "active": true
+    },
+    {
+      "id": "r3",
+      "name": "京东购物卡 50 元",
+      "desc": "电子卡密，自动发货",
+      "cost": 500,
+      "stock": 30,
+      "emoji": "🛍️",
+      "category": "购物",
+      "active": true
+    },
+    {
+      "id": "r4",
+      "name": "品牌定制保温杯",
+      "desc": "实物礼品，行政前台领取",
+      "cost": 350,
+      "stock": 25,
+      "emoji": "🥤",
+      "category": "实物",
+      "active": true
+    },
+    {
+      "id": "r5",
+      "name": "京东购物卡 100 元",
+      "desc": "电子卡密，自动发货",
+      "cost": 1000,
+      "stock": 12,
+      "emoji": "🎁",
+      "category": "购物",
+      "active": true
+    },
+    {
+      "id": "r6",
+      "name": "半天带薪休假",
+      "desc": "需直属上级审批",
+      "cost": 800,
+      "stock": 10,
+      "emoji": "🏖️",
+      "category": "福利",
+      "active": true
+    }
+  ],
+  "redemptions": [
+    {
+      "id": "rd001",
+      "employeeId": "e002",
+      "rewardId": "r3",
+      "name": "京东购物卡 50 元",
+      "cost": 500,
+      "status": "已完成",
+      "createdAt": "2026-08-12T02:00:00.000Z"
+    },
+    {
+      "id": "rd002",
+      "employeeId": "e002",
+      "rewardId": "r1",
+      "name": "星巴克电子饮品券",
+      "cost": 200,
+      "status": "已完成",
+      "createdAt": "2026-09-09T02:00:00.000Z"
+    }
+  ],
+  "blessings": [
+    {
+      "id": "b001",
+      "fromId": "e005",
+      "toId": "e009",
+      "message": "生日快乐！愿今年签单顺利～",
+      "createdAt": "2026-10-12T07:05:01.141Z"
+    },
+    {
+      "id": "b002",
+      "fromId": "e003",
+      "toId": "e009",
+      "message": "祝凯哥生日快乐，bug 少一点！",
+      "createdAt": "2026-10-12T07:05:01.141Z"
+    }
+  ],
+  "votes": [
+    {
+      "id": "v1",
+      "title": "10 月月度之星",
+      "monthKey": "2026-10",
+      "active": true,
+      "deadline": "2026-10-31T15:59:59.000Z",
+      "candidates": [
+        {
+          "id": "c1",
+          "employeeId": "e005",
+          "name": "赵敏",
+          "dept": "销售部",
+          "reason": "季度签约额团队第一，客户满意度 98%"
+        },
+        {
+          "id": "c2",
+          "employeeId": "e003",
+          "name": "陈晓雯",
+          "dept": "技术部",
+          "reason": "主导前端性能治理，首屏加载提速 40%"
+        },
+        {
+          "id": "c3",
+          "employeeId": "e002",
+          "name": "王磊",
+          "dept": "产品部",
+          "reason": "推动福利一体化方案落地，跨部门协同高效"
+        },
+        {
+          "id": "c4",
+          "employeeId": "e009",
+          "name": "郑凯",
+          "dept": "技术部",
+          "reason": "自动化测试体系搭建，回归效率提升 5 倍"
+        }
+      ],
+      "records": []
+    }
+  ],
+  "seq": {
+    "recognition": 25,
+    "redemption": 3,
+    "blessing": 3
+  }
+}
